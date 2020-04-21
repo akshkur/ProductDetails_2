@@ -1,13 +1,10 @@
 import React, { Component } from "react";
-import UsersList from "./UsersList";
-import Login from "./Login";
+
 import { selectors as loginSelectors } from "../redux/Reducers/userReducer";
 import { actions } from "../redux/Actions/userActions";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { Loader } from "./shared/Loader";
-import { isEmpty } from "lodash";
-import { withRouter } from "react-router-dom";
+//import { Loader } from "./shared/Loader";
 import { ShowPosts } from "./ShowPosts";
 
 export class UsersContainer extends Component {
@@ -19,7 +16,7 @@ export class UsersContainer extends Component {
     const { loading, errorMessage } = this.props;
     return (
       <div>
-        <Loader hidden={!loading} />
+        {/* <Loader hidden={!loading} /> */}
         {/* I have made Loader Component which 
       we can call here to show loader based 
       on value of loading variable when we embed API instance.*/}

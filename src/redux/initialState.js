@@ -37,7 +37,7 @@ const initialState = {
           text: "would recommend this product",
         },
       ],
-      date: "19-Apr-2020",
+      date: "21-Apr-2020",
     },
     {
       id: 2,
@@ -52,7 +52,7 @@ const initialState = {
           text: "would recommend this product",
         },
       ],
-      date: "19-Apr-2020",
+      date: "21-Apr-2020",
     },
     {
       id: 3,
@@ -67,7 +67,7 @@ const initialState = {
           text: "worth price",
         },
       ],
-      date: "19-Apr-2020",
+      date: "21-Apr-2020",
     },
   ],
   loading: false,
